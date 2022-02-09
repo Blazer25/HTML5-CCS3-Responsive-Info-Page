@@ -1,0 +1,74 @@
+@media screen and (min-width: 768px) {
+    /* Nav Bar */
+    nav {
+        flex-direction: column !important;
+        justify-content: space-around;
+    }
+    nav ul {
+        flex-direction: row !important;
+        width: 70%;
+    }
+    /* Header */
+    header {
+        height: 600px;
+        /* Valor dinâmico*/
+        height: 60vh;
+        /*  */
+        justify-content: center;
+    }
+    /* About */
+    #Sobre {
+        height: 250px;
+        /* Valor dinâmico*/
+        height: 30vh;
+        /*  */
+        justify-content: center;
+        min-height: 250px;
+    }
+    /* Services */
+    #Serviços {
+        flex-direction: row;
+        /* É uma quebra de linha */
+        flex-wrap: wrap;
+        /*  */
+        align-items: flex-start;
+        max-width: 1000px;
+        /* Ajustar automaticamente a distância entre esqueda e direita */
+        margin: 0 auto;
+        /*  */
+    }
+    #Serviços h2 {
+        text-align: center;
+        width: 100%;
+    }
+    #Serviços div {
+        /* Define um tamanho máximo para todas as flexs e da um espaçamento entre elas */
+        flex-grow: 1;
+        flex-basis: 150px;
+        padding: 10px;
+    }
+    /* Photos */
+    #Fotos {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    #Fotos h2 {
+        width: 100%;
+        text-align: center;
+    }
+    #Fotos img {
+        width: 33.333333%;
+    }
+    /* Contact */
+    #Contato {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    #Contato h2,
+    #Contato p {
+        width: 100%;
+    }
+}
